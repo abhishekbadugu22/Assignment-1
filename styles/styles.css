@@ -375,17 +375,16 @@ form input[type=text] {
         top: 1%;
     }
 
+    .footerText {
+        margin-left: 10px;
+    }
+
     
 }
 
 @media (max-width:600px) {
     .carouselImg {
         height: 650px;
-    }
-
-    .number img {
-        height: 15px;
-        width: 15px;
     }
 
     .noOnTop {
@@ -395,6 +394,13 @@ form input[type=text] {
 
     .progressText {
         font-size: 13px;
+    }
+
+    .number {
+        position: absolute;
+        top: 41%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
 
     .cardsContent2 .smallBtn {
@@ -412,16 +418,31 @@ form input[type=text] {
     }
 }
 
-@media (max-width:815px) {
+@media (max-width:770px) {
     .aboutUsHeader {
         text-align: center;
     }
+
+    .aboutUs {
+        text-align: center;
+    }
+
+    .footerText {
+        margin-left: 20px;
+    }
+    
+
 }
 
 @media (max-width:900px) {
     .noOnTop {
         height: 60px;
         width: 60px;
+    }
+
+    .number img {
+        height: 25px;
+        width: 25px;
     }
     
     .dottedLine {
@@ -506,8 +527,8 @@ form input[type=text] {
     }
 
     .number img {
-        height: 20px;
-        width: 20x;
+        height: 22px;
+        width: 25px;
     }
 
     .noOnTop {
@@ -548,6 +569,17 @@ form input[type=text] {
 
     .cardsContent2 .card {
         width: 9rem;
+    }
+
+    .number {
+        position: absolute;
+        top: 40%;
+        left: 49%;
+        transform: translate(-50%, -50%);
+    }
+
+    .footerText {
+        margin-left: 5px;
     }
 
 }
