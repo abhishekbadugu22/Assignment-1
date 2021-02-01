@@ -1,0 +1,606 @@
+
+
+.contactNumber p {
+    font-family: 'Satisfy';
+    padding-top: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.downloadBarText {
+    font-size: 20px;
+    color: white;
+}
+
+#downloadButton {
+    background-color: lightgray;
+    border-color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+#downloadButton:hover {
+    background-color: black;
+
+}
+
+#downloadBar {
+    background-color: #888888;
+}
+
+.manAndKidImg {
+    width: 100%;
+    height: 500px;
+}
+
+.manAndKidImgContainer {
+    position: relative;
+}
+
+.btn {
+    background-color: lightgreen;
+    color: white;
+    padding: 10px;
+}
+
+.btn:hover {
+    background-color: chartreuse;
+    color: grey;
+}
+
+.manAndKidImgContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    height: 40%;
+    position: absolute;
+    top: 30%;
+    right: 10%;
+}
+
+.playBtn img {
+    background-color: lightgreen;
+    opacity: 0.7;
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    padding: 20px 30px 20px 30px;
+}
+
+.manAndKidImgContent p {
+    text-align: center;
+    font-size: 26px;
+}
+
+.aboutUs p {
+    font-size: 20px;
+}
+
+.cardsContainer img {
+    width: 100%;
+    height: 500px;
+}
+
+.cardsContainer {
+    position: relative;
+}
+
+.cardsContent1 {
+    position: absolute;
+    top: 15px;
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardsContent1 p {
+    text-align: center;
+    font-size: 18px;
+}
+
+.cardsContent2 img {
+    height: 80px;
+    width: 80px;
+}
+
+.cardsContent2 .card {
+    width: 15rem;
+}
+
+.cardsContent2 .card-body img {
+    height: 10px;
+    width: 10px;
+}
+
+.cardsContent2 {
+    position: absolute;
+    top: 120px;
+    bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardsContent2 .card {
+    opacity: 0.9;
+}
+
+#reduceSize {
+    height: 180px;
+}
+
+.readBtn {
+    border: 2px solid lightgreen;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: lightgreen;
+}
+
+
+
+.readBtn:hover {
+    background-color: chartreuse;
+    color: white;
+    text-decoration: none;
+}
+
+.darkBtn:hover {
+    color: white;
+    text-decoration: none;
+}
+
+#ColGreen {
+    color: lightgreen;
+}
+
+.paraIncSize {
+    font-size: 23px;
+}
+
+.fotterBtn {
+    background-color: lightgreen;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.fotterBtn:hover {
+    background-color: chartreuse;
+}
+
+.incContact {
+    font-family: 'Satisfy';
+    font-size: 30px;
+}
+
+.tweetText {
+    font-size: 15px;
+}
+
+.bottom {
+    width: 100%;
+    height: auto;
+    background-color: black;
+    color: white;
+}
+
+.copyRightImg {
+    height: 10px;
+    width: 10px;
+}
+
+.horProgressImg {
+    width: 100%;
+}
+
+.horProgress {
+    position: relative;
+}
+
+.horProgressHeaderContent {
+    position: absolute;
+    top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.imageOnTop {
+    position: relative
+}
+
+.progressContent {
+    position: absolute;
+    top: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.number {
+    position: absolute;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.progressText {
+    position: absolute;
+    top: -20px;
+    left: 25%;
+}
+
+.number {
+    border-radius: 50%;
+}
+
+.inputBar {
+    position: absolute;
+    top: 75%;
+}
+
+.inputBar label {
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+    border: 4px solid lightgreen;
+}
+
+.borderRad {
+    border-radius: 50%;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 30px;
+}
+
+.outerImg {
+    height: 163px;
+    width: 150px;
+}
+
+.hoverImg img {
+    height: 125px;
+    width: 125px;
+    border-radius: 50%;
+}
+
+
+
+.midImage {
+    position: relative;
+}
+
+.hoverImg {
+    position: absolute;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+form input[type=text] {
+    padding: 7px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    border-radius: 7px;
+    background: white;
+    border-right: none;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+  
+  form button {
+    float: left;
+    border: none;
+    width: 20%;
+    padding: 7px;
+    background: white;
+    border-radius: 7px;
+    color: gray;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.cardsContent2 .smallBtn {
+    padding: 10px;
+    background-color: lightgreen;
+    font-size: 15px;
+    color: white;
+    border-radius: 5px;
+}
+
+.cardsContent2 .smallBtn:hover {
+    background-color: chartreuse;
+}
+
+.bottom a:hover {
+    color: grey !important;
+}
+
+
+@media (max-width:500px) {
+    .manAndKidImg {
+        height: 300px;
+    }
+
+    .cardsContainer img {
+        height: 500px;
+    }
+
+    .manAndKidImgContent p {
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .logo {
+        height: 150px;
+        width: 200px;
+    }
+
+    .horProgressImg {
+        height: 450px;
+    }
+
+    .number img {
+        height: 25px;
+        width: 25px;
+    }
+
+    .noOnTop {
+        height: 40px;
+        width: 40px;
+    }
+
+    .carousel-caption {
+        position: absolute;
+        top: 1%;
+    }
+
+    
+}
+
+@media (max-width:600px) {
+    .carouselImg {
+        height: 650px;
+    }
+
+    .number img {
+        height: 15px;
+        width: 15px;
+    }
+
+    .noOnTop {
+        height: 30px;
+        width: 30px;
+    }
+
+    .progressText {
+        font-size: 13px;
+    }
+
+    .cardsContent2 .smallBtn {
+        padding: 10px;
+        background-color: lightgreen;
+        font-size: 13px;
+        color: white;
+        border-radius: 5px;
+    }
+}
+
+@media (max-width:1000px) {
+    .carouselImg {
+        height: 500px;
+    }
+}
+
+@media (max-width:815px) {
+    .aboutUsHeader {
+        text-align: center;
+    }
+}
+
+@media (max-width:900px) {
+    .noOnTop {
+        height: 60px;
+        width: 60px;
+    }
+    
+    .dottedLine {
+        width: 30px;
+        height: 3px;
+    }
+
+    .navContent {
+        display: flex;
+        justify-content: start;
+    }
+}
+
+@media (max-width:800px) {
+    .playBtn img {
+        padding: 10px 15px 10px 15px;
+    }
+
+    .cardsContent2 .card {
+        width: 10rem;
+    }
+
+    .cardsContent2 .card a{
+        height: 45px;
+        width: 110px;
+    }
+
+    .cardsContent2 img {
+        height: 60px;
+        width: 60px;
+    }
+
+    .noOnTop {
+        height: 60px;
+        width: 60px;
+    }
+    
+    .dottedLine {
+        width: 10px;
+        height: 3px;
+    }
+
+    .horProgressImg {
+        height: 450px;
+    }
+
+    .btnCenter {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .carouselImg {
+        height: 570px;
+    }
+
+    .aboutUs {
+        display: flex;
+        justify-content: center;
+    }
+
+    .progressText {
+        position: absolute;
+        left: 23%;
+    }
+
+}
+
+@media (max-width:430px) {
+    .playBtn img {
+        padding: 10px 15px 10px 15px;
+    }
+
+    .btn {
+        background-color: lightgreen;
+        color: white;
+        padding: 6px;
+    }
+
+    .manAndKidImg {
+        height: 350px;
+    }
+
+    .number img {
+        height: 20px;
+        width: 20x;
+    }
+
+    .noOnTop {
+        height: 35px;
+        width: 35px;
+    }
+
+    .progressText {
+        font-size: 13px;
+    }
+
+    .inputBar label {
+        padding: 5px;
+        background-color: white;
+        border-radius: 5px;
+        border: 4px solid lightgreen;
+    }
+
+    .outerImg {
+        height: 133px;
+        width: 120px;
+    }
+    
+    .hoverImg img {
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+    }
+
+    .carouselImg {
+        height: 600px;
+    }
+
+    .dottedLine {
+        width: 10px;
+        height: 3px;
+    }
+
+    .cardsContent2 .card {
+        width: 9rem;
+    }
+
+}
+
+@media (max-width:347px) {
+    #contactBtn {
+        width: 135px;
+        font-size: 12px;
+    }
+
+    .inputBar {
+        padding: 8px;
+        font-size: 13px;
+    }
+
+    #fotterLogo {
+        width: 80%;
+    }
+
+    .cardsContent2 .card {
+        width: 130px;
+    }
+
+    .cardsContent2 h5 {
+        font-size: 15px;
+    }
+
+    .cardsContent2 p {
+        font-size: 12px;
+    }
+
+    .cardsContent2 .smallBtn {
+        padding: 5px;
+        background-color: lightgreen;
+        font-size: 12px;
+        color: white;
+        border-radius: 5px;
+    }
+
+    .cardsContent2 .smallBtn:hover {
+        background-color: chartreuse;
+    }
+
+    .carouselImg {
+        height: 650px;
+    }
+
+    .blogPostHeader {
+        font-weight: bold;
+        font-size: 25px;
+    }
+
+    .bottom {
+        font-size: 12px;
+    }
+}
