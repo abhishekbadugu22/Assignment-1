@@ -291,8 +291,6 @@ a:hover {
     border-radius: 50%;
 }
 
-
-
 .midImage {
     position: relative;
 }
@@ -390,6 +388,18 @@ form input[type=text] {
 
     .footerText {
         margin-left: 10px;
+    }
+
+    .cardsContent2 .card {
+        width: 130px;
+    }
+
+    .cardsContent2 h5 {
+        font-size: 17px;
+    }
+
+    .cardsContent2 p {
+        font-size: 14px;
     }
 
     
@@ -593,6 +603,14 @@ form input[type=text] {
 
     .footerText {
         margin-left: 5px;
+    }
+
+    .progressText {
+        left: 5px;
+    }
+
+    .cardsContent2 {
+        top: 130px;
     }
 
 }
