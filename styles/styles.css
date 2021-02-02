@@ -7,6 +7,19 @@
     text-align: center;
 }
 
+.navbar-nav .active a{
+    color: green !important;
+}
+
+.navbar-nav .active a:hover{
+    color: green ;
+}
+
+.nav-item a:hover {
+    color: lightgreen !important;
+}
+
+
 a:hover {
     color: white;
     text-decoration: none;
@@ -583,6 +596,22 @@ form input[type=text] {
     }
 
 }
+
+@media (max-width:379px) {
+    .tweeterIcon {
+        height: 13px;
+        width: 13px;
+    }
+
+    .footerText {
+        margin-left: 0px;
+    }
+
+    .tweetText {
+        font-size: 13px;
+    }
+}
+
 
 @media (max-width:347px) {
     #contactBtn {
