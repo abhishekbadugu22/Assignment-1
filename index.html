@@ -23,12 +23,15 @@
     <!--Css Link------->
     <link rel="stylesheet" href="styles/styles.css">
 
+    <!-- JavaScript Link------ -->
+    <script src="app.js"></script>
+
     <!--Shortcut Icon----->
     <!--     
         <link rel="shortcut icon" href="images/shortcut-icon.jpeg">
     -->
 
-    <title>Vital Partners</title>
+    <title>Assignment 1</title>
 
 </head>
 
@@ -138,7 +141,7 @@
 
     <div class="container">
         <div class="row justify-content-center my-5">
-            <div class="col-sm-6">
+            <div class="col-md-6">
                 <div class="aboutUs">
                     <!--About Us Text------->
                     <div>
@@ -181,7 +184,7 @@
             </div>
             <!--About Us Right Image---->
             <div class="row  my-4 text-center">
-                <div class="col-sm-6" id="AboutUsImg">
+                <div class="col-md-6" id="AboutUsImg">
                     <img src="images/sidebanner_image_2.png"  alt="">
                 </div>
             </div>
@@ -308,55 +311,63 @@
 
     <!--Cards------>
 
-        <div class="cardsContainer mt-5">
-            <!--Background Image------->
-            <img src="images/hbg2.png"  alt="">
-    
-            <div class="row justify-content-center">
-                <div class="cardsContent1">
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                    </p>
-                </div>
-            </div>
+    <div class="cardsContainer mt-5">
+        <!--Background Image------->
+        <div class="bgImage">
+            <img src="images/hbg2.png"   alt="">
+        </div>
 
-                <!--Image Content------->
+        <div class="row justify-content-center">
+            <div class="cardsContent1">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                </p>
+            </div>
+        </div>
+
+            <!--Image Content------->
+            <div class="container">
                 <div class="row justify-content-center">
                     <div class="cardsContent2">
-                        <div class="row">
+                            <div class="row justify-content-center">
                             
-                            <div class="col">
-                                <div class="card">
-                                    <div class="row justify-content-center mt-5">
-                                        <img class="card-img-top text center" src="images/icon2.png" alt="Card image cap">
-                                    </div>
-                                    
-                                    <div class="card-body text-center">
-                                      <h5 class="card-title">What is Lorem Ipsum</h5>
-                                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur  Lorem ipsum dolor sit amet.</p>
-                                      <a href="#" class="smallBtn">Get Started <i><img src="images/small_triangle.png" alt=""></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col">
-                                <div class="card" style="opacity: 0.9;">
-                                    <div class="row justify-content-center mt-5">
-                                        <img class="card-img-top text center" src="images/icon3.png" alt="Card image cap">
-                                    </div>
-                                    
-                                    <div class="card-body text-center">
-                                      <h5 class="card-title">Where does it Come</h5>
-                                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur Lorem ipsum dolor sit amet.</p>
-                                      <a href="#" class="smallBtn">Get Started <i><img src="images/small_triangle.png" alt=""></i></a>
+                                <div class="col">
+                                    <div class="card">
+                                        <div class="row justify-content-center mt-5">
+                                            <img class="card-img-top text center" src="images/icon2.png" alt="Card image cap">
+                                        </div>
+                                        
+                                        <div class="card-body text-center">
+                                          <h5 class="card-title">What is Lorem Ipsum</h5>
+                                          <p class="card-text">Lorem ipsum dolor sit amet, consectetur  Lorem ipsum dolor sit amet.</p>
+                                          <a href="#" class="smallBtn">Get Started <i><img src="images/small_triangle.png" alt=""></i></a>
+                                        </div>
                                     </div>
                                 </div>
+                                    <div class="col">
+                                        <div class="cardTopSpace card" style="opacity: 0.9;">
+                                            <div class="row justify-content-center mt-5">
+                                                <img class="card-img-top text center" src="images/icon3.png" alt="Card image cap">
+                                            </div>
+                                            
+                                            <div class="card-body text-center">
+                                              <h5 class="card-title">Where does it Come</h5>
+                                              <p class="card-text">Lorem ipsum dolor sit amet, consectetur Lorem ipsum dolor sit amet.</p>
+                                              <a href="#" class="smallBtn">Get Started <i><img src="images/small_triangle.png" alt=""></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                               
+                                
                             </div>
-                        </div>
+                        
                         
                         
                     </div>
                 </div>
-        </div>
+            </div>
+            
+    </div>
 
 
         <!--Carasole-->
@@ -439,9 +450,9 @@
                         
                         <img src="images/blog_image_3.jpg" class="card-img-top" id="reduceSize" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</h5>
+                            <h5 class="changeColor card-title" id="card1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</h5></a>
                             <p class="card-text text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure .</p>
-                            <a href="#" class="readBtn">Read More</a>
+                            <a href="#"class="readBtn" onmouseover="colorAdd('#card1')" onmouseout="normalColor('#card1')">Read More</a>
                         </div>
                     </div>
                    </div>
@@ -453,9 +464,9 @@
                             
                             <img src="images/man-and-kid.png" class="card-img-top" alt="...">
                             <div class="card-body">
-                                <h5 class="card-title" id="ColGreen">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</h5>
+                                <h5 class="changeColor card-title" id="card2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</h5>
                                 <p class="card-text text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure .</p>
-                                <a href="#" class="readBtn">Read More</a>
+                                <a href="#" class="readBtn" onmouseover="colorAdd('#card2')" onmouseout="normalColor('#card2')">Read More</a>
                             </div>
                         </div>
                    </div>
@@ -466,10 +477,13 @@
                         <div class="card border-0" style="width: 18rem;">
                             
                             <img src="images/user3.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</h5>
+                            <div class="changeColor card-body">
+
+                                <h5 class="card-title" id="card3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</h5>
+
                                 <p class="card-text text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure .</p>
-                                <a href="#" class="readBtn">Read More</a>
+                                
+                                <a href="#" class="readBtn" onmouseover="colorAdd('#card3')" onmouseout="normalColor('#card3')">Read More</a>
                             </div>
                         </div>
                     </div>
@@ -515,7 +529,7 @@
             <div class="container">
                 <div class="footerText row justify-content-center align-item-center my-4">
                     <div class="col-md-4">
-                            <h5 class="text-white">CONTACT INFO</h5>
+                            <h5 class="centerText text-white">CONTACT INFO</h5>
                             <p>4/220 eorge St, Sydney NSW 2000 <br> Phone: (02)-90178413 <br> 
                             E-mail: info@syd.vitalpartners.com.au</p>
                             <br>
@@ -527,7 +541,7 @@
                     </div>
 
                     <div class="col-md-4">
-                            <h5 class="text-white">RECENT POSTS</h5>
+                            <h5 class="centerText text-white">RECENT POSTS</h5>
                             <p><i><img src="images/icon8.png" alt=""></i> How to Recover After a Bad Date</p>
                             <p><i><img src="images/icon8.png" alt=""></i> Review | Vital Partners Review</p>
                             <p><i><img src="images/icon8.png" alt=""></i>  Review | Vital Partners Review</p>
@@ -537,28 +551,28 @@
                     </div>
 
                     <div class="col-md-4">
-                        <h5 class="text-white">RECENT TWEETS</h5>
+                        <h5 class="centerText text-white">RECENT TWEETS</h5>
                         <div class="row">
-                                    <div class="col-1 mr-0">
-                                        <img src="images/icon9.png" class="tweeterIcon" alt="">
-                                    </div>
-                                    <div class="tweetText col-11 ml-0">
-                                        <p>Are you being vulnerable to find love? via ofline <br>
-                                            bating agency Sydney Canberra VitalPartners <br>
-                                            http://t.co/hCgHEC6f &emsp; &emsp; &emsp; 1 week ago
-                                            </p>
-                                    </div>
+                            <div class="col-1 mr-0">
+                                <img src="images/icon9.png" class="tweeterIcon" alt="">
+                            </div>
+                            <div class="tweetText col-11 ml-0">
+                                <p>Are you being vulnerable to find love? via ofline <br>
+                                    bating agency Sydney Canberra VitalPartners <br>
+                                    http://t.co/hCgHEC6f &emsp; &emsp; &emsp; 1 week ago
+                                </p>
+                            </div>
                                 
+                            <div class="col-1 mr-0">
+                                    <img src="images/icon9.png" class="tweeterIcon" alt="">
+                            </div>
+                            <div class="tweetText col-11 ml-0">
+                                <p>Ending a relationship? read why you shouldn't <br>
+                                    break up by text-ofline dating agency Vital <br> Partners Sydney Canberra<br>
+                                    http://t.co/hCgHEC6f &emsp; &emsp; &emsp;  1 week ago
+                                </p>
+                            </div>
                                 
-                                    <div class="col-1 mr-0">
-                                            <img src="images/icon9.png" class="tweeterIcon" alt="">
-                                    </div>
-                                    <div class="tweetText col-11 ml-0">
-                                        <p>Ending a relationship? read why you shouldn't <br>
-                                        break up by text-ofline dating agency Vital <br> Partners Sydney Canberra<br>
-                                        http://t.co/hCgHEC6f &emsp; &emsp; &emsp;  1 week ago
-                                        </p>
-                                    </div>
                         </div>
                     </div>
 

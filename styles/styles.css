@@ -136,14 +136,14 @@ a:hover {
 .cardsContent2 {
     position: absolute;
     top: 120px;
-    bottom: 50px;
-    display: flex;
+    /* display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
 }
 
 .cardsContent2 .card {
     opacity: 0.9;
+   
 }
 
 #reduceSize {
@@ -158,9 +158,12 @@ a:hover {
     color: lightgreen;
 }
 
+/* .changeColor:hover{
+    color: chartreuse;
+} */
 
 
-.readBtn:hover {
+.readBtn:hover{
     background-color: chartreuse;
     color: white;
     text-decoration: none;
@@ -171,9 +174,9 @@ a:hover {
     text-decoration: none;
 }
 
-#ColGreen {
+/* #ColGreen {
     color: lightgreen;
-}
+} */
 
 .paraIncSize {
     font-size: 23px;
@@ -386,9 +389,9 @@ form input[type=text] {
         top: 1%;
     }
 
-    .footerText {
-        margin-left: 10px;
-    }
+    /* .footerText {
+        margin-left: 20px;
+    } */
 
     .cardsContent2 .card {
         width: 130px;
@@ -402,6 +405,10 @@ form input[type=text] {
         font-size: 14px;
     }
 
+    .footerText {
+        margin-left: 30px;
+        margin-right: 20px;
+    }
     
 }
 
@@ -447,12 +454,12 @@ form input[type=text] {
     }
 
     .aboutUs {
-        text-align: center;
+        text-align: left;
     }
 
-    .footerText {
-        margin-left: 20px;
-    }
+    /* .footerText {
+        margin-left: 10px;
+    } */
     
 
 }
@@ -487,6 +494,7 @@ form input[type=text] {
     .cardsContent2 .card {
         width: 10rem;
     }
+    
 
     .cardsContent2 .card a{
         height: 45px;
@@ -522,15 +530,12 @@ form input[type=text] {
         height: 570px;
     }
 
-    .aboutUs {
-        display: flex;
-        justify-content: center;
-    }
 
     .progressText {
         position: absolute;
         left: 23%;
     }
+    
 
 }
 
@@ -590,9 +595,9 @@ form input[type=text] {
         height: 3px;
     }
 
-    .cardsContent2 .card {
+    /* .cardsContent2 .card {
         width: 9rem;
-    }
+    } */
 
     .number {
         position: absolute;
@@ -601,16 +606,44 @@ form input[type=text] {
         transform: translate(-50%, -50%);
     }
 
-    .footerText {
-        margin-left: 5px;
-    }
+    /* .footerText {
+        margin-left: 10px;
+    } */
 
     .progressText {
         left: 5px;
     }
 
+    
+
     .cardsContent2 {
         top: 130px;
+        right: 30px;
+        left: 25%;
+    }
+
+
+
+    .cardsContent2 .card1 {
+       display: flex;
+       justify-content: center;
+    }
+
+    .cardsContent2 .card {
+        width: 200px;
+    }
+    
+
+    .bottom {
+        font-size: 14px;
+    }
+
+    .bgImage img {
+        height: 800px;
+    }
+
+    .cardTopSpace {
+        margin-top: 30px;
     }
 
 }
@@ -621,12 +654,23 @@ form input[type=text] {
         width: 13px;
     }
 
-    .footerText {
-        margin-left: 0px;
-    }
+    /* .tweeterIconPosition {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    } */
+
+    /* .footerText {
+        margin-left: 16px;
+        margin-right: 0px;
+    } */
 
     .tweetText {
-        font-size: 13px;
+        font-size: 16px;
+    }
+
+    .footerText {
+        margin-left: 30px;
     }
 }
 
@@ -647,7 +691,7 @@ form input[type=text] {
     }
 
     .cardsContent2 .card {
-        width: 130px;
+        width: 200px;
     }
 
     .cardsContent2 h5 {
@@ -681,5 +725,13 @@ form input[type=text] {
 
     .bottom {
         font-size: 12px;
+    }
+
+    .tweetText {
+        font-size: 16px;
+    }
+
+    .footerText {
+        margin-left: 26px;
     }
 }
